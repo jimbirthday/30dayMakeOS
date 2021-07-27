@@ -1,4 +1,4 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
+language: python
+sudo: required
+before_install: sudo pip install foo
+script: py.test
